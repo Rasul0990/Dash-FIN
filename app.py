@@ -129,4 +129,4 @@ def update_tabs(n_clicks, assets, keyword, date_range, tab):
 # Run App
 # ---------------------------
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
